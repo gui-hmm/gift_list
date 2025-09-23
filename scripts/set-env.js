@@ -17,6 +17,9 @@ export const environment = {
 };
 `;
 
+console.log('Conteúdo do environment.prod.ts:\n', envConfigFile);
+
+
 writeFileSync(targetPath, envConfigFile);
 
 console.log(`Arquivo environment.prod.ts gerado com sucesso em ${targetPath}`);
