@@ -1,0 +1,17 @@
+<div class="p-8 max-w-7xl mx-auto">
+  <div class="flex flex-col items-center justify-center py-4">
+    <img class="w-44" src="/logoXV.png" alt="">
+    <h1 class="text-6xl font-bold text-glow mb-5">Julia XV <br></h1> 
+    <h2 class="text-4xl font-bold text-glow">Lista de presentes</h2>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-6">
+    <ng-container *ngIf="gifts$ | async as gifts">
+      <ng-container *ngFor="let g of gifts">
+        <app-gift-card *ngIf="g.status === 'available'" [gift]="g" (reserve)="openReserve($event)"></app-gift-card>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <app-reserve-modal *ngIf="showingModal && selectedGift"  [gift]="selectedGift" (done)="onReserved()"></app-reserve-modal>
+</div>

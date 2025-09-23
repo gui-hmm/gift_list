@@ -1,0 +1,10 @@
+<div class="bg-gradient-to-br from-indigo-900 via-purple-900 to-transparent p-4 rounded-lg shadow-lg">
+  <div class="h-40 w-full bg-gray-800 rounded-md mb-4 flex items-center justify-center">
+    <img *ngIf="gift.image" [src]="'/assets/images/' + gift.image" alt="{{gift.name}}" class="w-64 h-40 overflow-hidden">
+  </div>
+  <h3 class="text-xl font-semibold">{{gift.name}}</h3>
+  <p class="text-sm opacity-80">{{gift.description}}</p>
+  <div class="mt-4">
+    <button (click)="reserve.emit(gift)" class="px-3 py-2 bg-cyan-500 rounded text-black">Vou presentear com isso</button>
+  </div>
+</div>

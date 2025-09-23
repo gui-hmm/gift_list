@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Bicicleta",
+    "description": "Bicicleta aro médio, ideal para uso urbano ou lazer. Estrutura metálica resistente, marchas múltiplas, pneus em bom estado.",
+    "image": "bicicleta.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Computador",
+    "description": "Computador de mesa com processador recente, memória RAM suficiente para uso cotidiano e multitarefa. Perfeito para home office ou estudos.",
+    "image": "computador.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Camisa do Santa Cruz tm. GG",
+    "description": "Camisa oficial do Santa Cruz, tamanho GG. Material leve, ideal para torcer ou usar no dia a dia. Em boa conservação.",
+    "image": "camisa-santa-cruz-gg.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Blusa da Lázaro (religiosa)",
+    "description": "Blusa com estampa referente ao grupo ou ministério Lázaro. Modelo religioso, ideal para uso em encontros, celebrações ou culto. Tecido confortável.",
+    "image": "blusa-lazaro.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Câmera fotográfica polaroid",
+    "description": "Câmera instantânea estilo Polaroid, permite impressão imediata de fotos. Ideal para registro de momentos com estilo retrô.",
+    "image": "camera-polaroid.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Jogo de tabuleiro War 2.0",
+    "description": "Versão moderna do clássico War, com batalhas por território, objetivos secretos e possibilidade de estratégia aérea. Marca Grow. Para 3 a 6 jogadores. Tempo médio de jogo ~120 minutos. :contentReference[oaicite:0]{index=0}",
+    "image": "war-2.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Jogo de tabuleiro Detetive",
+    "description": "Jogo de mistério e dedução, no qual os jogadores investigam personagens, armas e locais para solucionar um crime. Estimula raciocínio lógico e trabalho em equipe.",
+    "image": "detetive.jpeg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Jogo de tabuleiro Banco imobiliário novo",
+    "description": "Versão nova do Banco Imobiliário. Jogo clássico de compra e troca de propriedades, administração de finanças fictícias, ideal para família ou amigos.",
+    "image": "banco-imobiliario.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Jogo de tabuleiro Bloqueio",
+    "description": "Jogo de estratégia baseado em movimentação e bloqueio de peças do adversário. Estimula planejamento e antecipação dos movimentos do oponente.",
+    "image": "bloqueio.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Jogo de tabuleiro novo perfil",
+    "description": "Novo Perfil: jogo de perguntas com categorizações de perfil, ideal para conhecer melhor seus amigos. Usado em rodas de conversa ou dinâmica social.",
+    "image": "novo-perfil.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  
+  {
+    "name": "Jogo de tabuleiro imagem e ação",
+    "description": "Imagem & Ação: jogo onde um jogador precisa desenhar ou representar para que os outros adivinhem. Excelente para criatividade, diversão em grupo e momentos leves.",
+    "image": "imagem-acao.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Caderno estilo fichário com folha para repor",
+    "description": "Caderno tipo fichário com argolas, folhas reposição disponíveis. Ideal para organização pessoal, estudo ou trabalho. Capa resistente.",
+    "image": "caderno-fichario.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Sandália de salto pequeno nº 42",
+    "description": "Sandália delicada de salto baixo, tamanho 42. Ideal para uso casual ou eventos sociais, salto confortável para uso prolongado.",
+    "image": "sandalia-42.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Blusa Ágape (religiosa)",
+    "description": "Blusa com temática religiosa ligada ao Ágape, usada em encontros ou celebrações. Confortável e apropriada para ambientes de fé.",
+    "image": "blusa-agape.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Tênis nº 42",
+    "description": "Tênis esportivo ou casual, número 42. Para uso diário, caminhada ou atividades leves. Solado em bom estado, conforte comprovado.",
+    "image": "tenis-42.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Pix (81999097998)",
+    "description": "Método de pagamento via Pix com chave telefônica (81 99909‑7998). Informações para quem desejar fazer transferência ou receber via esse meio.",
+    "image": "pix.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Brincos argolas de prata",
+    "description": "Par de brincos tipo argola em prata. Design clássico, serve para uso no dia a dia ou para complementar looks mais arrumados.",
+    "image": "brincos-prata.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Violão",
+    "description": "Violão acústico de cordas de aço ou náilon, ideal para iniciantes ou quem gosta de tocar por hobby. Corpo em bom estado, afinação mantida.",
+    "image": "violao.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Maquiagem",
+    "description": "Kit de maquiagem variado (batons, sombras, blush etc.). Ideal para uso pessoal ou presente. Itens em condições boas de uso.",
+    "image": "maquiagem.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Sapatilha nº42",
+    "description": "Sapatilha feminina ou unissex tamanho 42. Confortável, sola macia, ideal para uso cotidiano ou indoor.",
+    "image": "sapatilha-42.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Tônico poderoso gold spell",
+    "description": "Tônico poderosíssimo da Gold Spell Cosméticos que ajuda no crescimento capilar, fortalecendo fios, reduzindo quebra e preenchendo falhas. Com ativos como extrato de cenoura, biotina e BIOEX. :contentReference[oaicite:1]{index=1}",
+    "image": "tonico-gold-spell.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Roupão de banho personalizado tm GG",
+    "description": "Roupão de banho tamanho GG, personalizado com bordado ou estampa especial. Macio, ideal para uso após o banho ou em momentos de relaxamento.",
+    "image": "roupao-gg.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Produtos de cabelo cacheado da Salon line",
+    "description": "Kit de cuidados para cabelos cacheados da marca Salon Line, podendo incluir shampoo, condicionador, creme de pentear etc. Fórmulas voltadas à definição e hidratação dos cachos.",
+    "image": "salon-line.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Moletom de schoenstatt",
+    "description": "Moletom relacionado ao movimento ou local de Schoenstatt. Confortável, ideal para momentos frios ou para representar vínculo espiritual ou comunitário.",
+    "image": "moletom-schoenstatt.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Garrafa térmica",
+    "description": "Garrafa térmica para manter bebidas geladas ou quentes por mais tempo. Capacidade média, construção em aço ou inox, tampa vedante.",
+    "image": "garrafa-termica.webp",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  },
+  {
+    "name": "Relógio digital",
+    "description": "Relógio digital, display com horas, minutos, possivelmente data. Resistente à água ou não (depende do modelo). Bateria recente ou em bom estado.",
+    "image": "relogio-digital.jpg",
+    "status": "available",
+    "buyerName": "",
+    "buyerPhone": "",
+    "buyerCompanions": ""
+  }
+]

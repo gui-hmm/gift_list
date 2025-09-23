@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* galaxy theme basics */
+body {
+  @apply bg-galaxy-900 text-white min-h-screen;
+}
+.text-glow {
+  text-shadow: 0 0 8px rgba(173, 216, 230, 0.6),
+    0 0 16px rgba(138, 43, 226, 0.2);
+}
+.bg-galaxy-hero {
+  background-image: url("/fundo_site.png");
+  background-size: cover;
+  background-position: center;
+}
+.bg-galaxy-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* preto com 40% de opacidade */
+  z-index: 1;
+}
+.bg-galaxy-hero > * {
+  position: relative;
+  z-index: 2;
+}

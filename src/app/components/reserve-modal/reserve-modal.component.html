@@ -1,0 +1,16 @@
+<div class="fixed inset-0 flex items-center justify-center z-50">
+  <div class="absolute inset-0 bg-black/60" (click)="close()"></div>
+  <div class="bg-galaxy-800 rounded-lg p-6 z-10 w-full max-w-md">
+    <h2 class="text-2xl mb-4">Reserve: {{gift.name}}</h2>
+    <form (ngSubmit)="submit()" [formGroup]="form" class="space-y-3">
+      <input formControlName="name" placeholder="Seu nome" class="w-full p-2 rounded bg-galaxy-700" required/>
+      <input formControlName="phone" placeholder="telefone" class="w-full p-2 rounded bg-galaxy-700" required/>
+      <input formControlName="companions" placeholder="Vai presentear com alguém? (separados por vírgula)" class="w-full p-2 rounded bg-galaxy-700"/>
+      <div class="flex justify-end items-center gap-2">
+        <button type="button" (click)="close()" class="px-3 py-2 rounded">Cancelar</button>
+        <button type="submit" [disabled]="loading" class="px-3 py-2 bg-cyan-500 rounded">Confirmar</button>
+      </div>
+    </form>
+    <p class="mt-3">{{message}}</p>
+  </div>
+</div>
