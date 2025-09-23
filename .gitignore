@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/environments
+/src/environments
 /.pnp
 /.angular
 .pnp.js
