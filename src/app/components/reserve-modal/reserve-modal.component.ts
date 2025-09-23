@@ -37,11 +37,11 @@ export class ReserveModalComponent {
     const companionsArray = val.companions ? val.companions.split(',').map((s:any)=>s.trim()).filter((s:any)=>s) : [];
     try {
       await this.giftsService.reserveGift(String(this.gift.id), { name: val.name, phone: val.phone, companions: companionsArray });
-      this.message = 'Reservation successful! Thank you.';
-      setTimeout(()=> this.done.emit(), 900);
+      this.message = 'Reservado com sucesso! muito obrigado!!';
+      setTimeout(()=> this.done.emit(), 1500);
     } catch (err) {
       console.error(err);
-      this.message = 'There was an error. Please try again.';
+      this.message = 'Ocorreu um erro. Tente novamente.';
     } finally {
       this.loading = false;
     }
