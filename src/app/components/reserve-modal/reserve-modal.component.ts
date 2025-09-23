@@ -38,7 +38,7 @@ export class ReserveModalComponent {
     try {
       await this.giftsService.reserveGift(String(this.gift.id), { name: val.name, phone: val.phone, companions: companionsArray });
       this.message = 'Reservado com sucesso! muito obrigado!!';
-      setTimeout(()=> this.done.emit(), 1500);
+      setTimeout(()=> this.done.emit(), 3000);
     } catch (err) {
       console.error(err);
       this.message = 'Ocorreu um erro. Tente novamente.';
