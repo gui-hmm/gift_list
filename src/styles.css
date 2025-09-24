@@ -15,14 +15,3 @@ body {
   background-size: cover;
   background-position: center;
 }
-.bg-galaxy-hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* preto com 40% de opacidade */
-  z-index: 1;
-}
-.bg-galaxy-hero > * {
-  position: relative;
-  z-index: 2;
-}
